@@ -1,8 +1,34 @@
-<ul>
-{% for post in postslist | reverse %}
-  <li>
-    <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time  datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-  </li>
-{% endfor %}
-</ul>
+<div id="postslist">
+  {% for post in postslist | reverse %}
+    <div class="post">
+      <h3 class="post-title">
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h3>
+      <div class="post-desc">
+        {{ post.templateContent | excerpt | safe }}
+        <a href="{{ post.url | url }}">more...</a>
+      </div>
+      <div class="post-info">
+        <time datetime="{{ post.date | htmlDateString }}">{{ post.date | htmlDateString }}</time>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{# <ul>
+  {% for post in postslist | reverse %}
+      <li>
+        <a href="{{ post.url | url }}">
+          {% if post.data.title %}
+            {{ post.data.title }}
+          {% else %}
+            <code>{{ post.url }}</code>
+          {% endif %}
+        </a>
+        <p>
+          <small>
+            <time datetime="{{ post.date | htmlDateString }}">{{ post.date | htmlDateString }}</time>
+          </small>
+        </p>
+      </li>
+  {% endfor %}
+</ul> #}

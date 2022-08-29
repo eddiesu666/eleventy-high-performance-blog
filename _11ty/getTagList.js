@@ -1,11 +1,12 @@
-module.exports = function(collection) {
+module.exports = function (collection) {
   let tagSet = new Set();
-  collection.getAll().forEach(function(item) {
-    if( "tags" in item.data ) {
+  let tagCount = {};
+  collection.getAll().forEach(function (item) {
+    if ("tags" in item.data) {
       let tags = item.data.tags;
 
-      tags = tags.filter(function(item) {
-        switch(item) {
+      tags = tags.filter(function (item) {
+        switch (item) {
           // this list should match the `filter` list in tags.njk
           case "all":
           case "nav":
@@ -18,11 +19,17 @@ module.exports = function(collection) {
       });
 
       for (const tag of tags) {
-        tagSet.add(tag);
+        if (tagCount[tag]) {
+          tagCount[tag] += 1;
+        }
+        else {
+          tagSet.add(tag);
+          tagCount[tag] = 1;
+        }
       }
     }
   });
 
   // returning an array in addCollection works in Eleventy 0.5.3
-  return [...tagSet];
+  return [...tagSet].map((tag) => ({ name: tag, count: tagCount[tag] }));
 };

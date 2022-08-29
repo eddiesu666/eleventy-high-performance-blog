@@ -1,28 +1,22 @@
 <!doctype html>
-<html lang="en"
-    domain="{{ metadata.domain }}"
-    {% if googleanalytics %}
-    ga-id="{{ googleanalytics }}"
-    {% endif %}
-  >
+<html lang="en" domain="{{ metadata.domain }}" {% if googleanalytics %} ga-id="{{ googleanalytics }}" {% endif %}>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if isdevelopment %}
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     {% else %}
-    <link rel="icon" href="{{ '/img/favicon/favicon-192x192.png' | addHash }}" type="image/png">
+      <link rel="icon" href="{{ '/img/favicon/favicon-192x192.png' | addHash }}" type="image/png">
     {% endif %}
     <meta name="theme-color" content="#f9c412">
     <meta name="robots" content="max-snippet:-1, max-image-preview: large, max-video-preview: -1">
-    <title>{{ renderData.title or title or metadata.title | escape }}</title>
-    <meta property="og:title" content="{{ renderData.title or title or metadata.title | escape  }}">
-    {% set desc = renderData.description or description %}
+    <title>{{metadata.title | escape}}-{{ renderData.title or title | escape }}</title>
+    <meta property="og:title" content="{{metadata.title | escape}}-{{ renderData.title or title | escape }}"> {% set desc = renderData.description or description %}
     {% if not desc %}
       {% set desc = content | striptags | truncate(140) %}
     {% endif %}
     {% if desc %}
-      <meta name="description" content="{{ desc | escape  }}">
+      <meta name="description" content="{{ desc | escape }}">
       <meta property="og:description" content="{{ desc | escape }}">
     {% endif %}
     <meta name="twitter:card" content="summary_large_image">
@@ -31,69 +25,121 @@
     {% if image %}
       <meta property="og:image" content="{{ image | absoluteUrl(metadata.url) }}">
     {% endif %}
-
-    <link rel="canonical" href="{{ metadata.url }}{{ canonicalUrl or page.url }}">
+    <link rel="canonical" href="{{ metadata.url }}{{ canonicalUrl or page.url }}"> 
     <!-- This is a blog and so it SHOULD be safe and it is nice for the web
-         to send referrers cross-origin.
-         However, if you use sensitive data in URLs, consider changing this to
-         a value like `origin-when-cross-origin`
-         https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
-          -->
+          to send referrers cross-origin.
+          However, if you use sensitive data in URLs, consider changing this to
+          a value like `origin-when-cross-origin`
+          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
+    -->
     <meta name="referrer" content="no-referrer-when-downgrade">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-
     <link rel="preconnect" href="/" crossorigin>
     <link rel="preload" href="/fonts/Inter-3.19.var.woff2" as="font" type="font/woff2" crossorigin>
-    <script async defer src="{{ "/js/min.js" | addHash }}"
-      {% if webvitals %}data-cwv-src="{{ "/js/web-vitals.js" | addHash }}"{% endif %}>
+    <script async defer src="{{ "/js/min.js" | addHash }}" {% if webvitals %} data-cwv-src="{{ "/js/web-vitals.js" | addHash }}" {% endif %}></script>
+
+    <!-- Google Analytics -->
+    {% if googleanalytics and not isdevelopment %}
+    <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <script async defer src="https://www.googletagmanager.com/gtag/js?id={{ googleanalytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ googleanalytics }}');
     </script>
-    {% if googleanalytics %}
-      <script async defer src="{{ "/js/cached.js" | addHash }}"></script>
     {% endif %}
+
     <!-- Notably iOS UAs also contain Mac OS X -->
-    <script csp-hash>if (/Mac OS X/.test(navigator.userAgent))document.documentElement.classList.add('apple')
+    <script csp-hash>
+      if (/Mac OS X/.test(navigator.userAgent)) 
+        document
+          .documentElement
+          .classList
+          .add('apple')
     </script>
     <!-- css is inserted by optimize-html custom plugin -->
   </head>
   <body>
+    <script csp-hash data-cfasync="false">
+      (() => {
+        let isDark = localStorage.getItem('isDarkTheme');
+        isDark = isDark === null
+          ? window.matchMedia("(prefers-color-scheme: dark)").matches
+          : (isDark === 'true');
+        document.body.setAttribute(
+          "class", isDark
+          ? "dark-mode"
+          : "light-mode");
+        localStorage.setItem(
+          'isDarkTheme', isDark
+          ? true
+          : false);
+      })();
+    </script>
     <header>
       <nav>
         <div id="nav">
-          <h1><a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a></h1>
+          <h1>
+            <a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a>
+          </h1>
           {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-          {%- for entry in collections.all | eleventyNavigation %}
-            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-          {%- endfor %}
+          <div class="nav-menu">
+            {%- for entry in collections.all | eleventyNavigation %}
+              <a href="{{ entry.url | url }}">
+                {% include "icons/"+entry.key+".njk" %}
+                {{ entry.title }}
+              </a>
+            {%- endfor %}
+            <input id="nav-toggle" type="checkbox"></input>
+          <label for="nav-toggle" class="hamburger-icon">
+            <div class="hamburger-icon-top"></div>
+            <div class="hamburger-icon-center"></div>
+            <div class="hamburger-icon-bottom"></div>
+          </label>
+          <div class="nav-links">
+            {%- for entry in collections.all | eleventyNavigation %}
+              <a href="{{ entry.url | url }}">
+                {% include "icons/"+entry.key+".njk" %}
+                {{ entry.title }}
+              </a>
+            {%- endfor %}
+            <button id="switch-to-light" aria-label="switch to light mode">Light Mode</button>
+            <button id="switch-to-dark" aria-label="switch to dark mode">Dark Mode</button>
+          </div>
+          <button id="switch-color-theme" aria-label="switch color mode"></button>
+          <div class="nav-links">
+            <button id="switch-to-light" aria-label="switch to light mode">Light Mode</button>
+            <button id="switch-to-dark" aria-label="switch to dark mode">Dark Mode</button>
+          </div>
         </div>
-        <div id="reading-progress" aria-hidden="true"></div>
-      </nav>
+      </div>
+      <div id="reading-progress" aria-hidden="true"></div>
+    </nav>
+    {% if title=="Index" %}
+      <h1>{{ metadata.title }}</h1>
+      <h3>{{ metadata.description }}</h3>
+    {% else %}
       <h1>{{ title }}</h1>
-      {% block extraArticleHeader %}{% endblock %}
-      <dialog id="message"></dialog>
-      {% if googleanalytics %}
-      <noscript>
-        <img src="/.netlify/functions/ga?v=1&_v=j83&t=pageview&dr=https%3A%2F%2Fno-script.com&_s=1&dh={{ metadata.domain | encodeURIComponent }}&dp={{ page.url | encodeURIComponent }}&ul=en-us&de=UTF-8&dt={{title|encodeURIComponent}}&tid={{googleanalytics}}" width="1" height="1"
-        style="display:none" alt="">
-      </noscript>
-      {% endif %}
-    </header>
-
-    <main>
-      <article>
-        {% block article %}
-          {{ content | safe }}
-        {% endblock %}
-
-        {% if page.url and page.url.indexOf("/posts/") > -1 %}
-          <p>Published <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
-        {% endif %}
-      </article>
-    </main>
-
-    <footer>
-      <a href="/about/">{{ metadata.author.name }}</a>
-    </footer>
-
-    <!-- Current page: {{ page.url | url }} -->
+    {% endif %}
+    {% block extraArticleHeader %}{% endblock %}
+    <dialog id="message"></dialog>
   </body>
-</html>
+</html></header><main>
+<article>
+  {% block article %}
+    {{ content | safe }}
+  {% endblock %}
+  {# {% if page.url and page.url.indexOf("/posts/") > -1 %}
+        <p>Published
+          <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+        </p>
+      {% endif %} #}
+</article></main><footer>
+<p>© 2022 艾迪酥 (Eddie Su)<br>
+  <span>Based on
+    <a href="https://github.com/google/eleventy-high-performance-blog" rel="noopener" target="_blank">
+      eleventy-high-performance-blog</a>
+  </span>
+</p></footer><!-- Current page: {{ page.url | url }} --></body></html>

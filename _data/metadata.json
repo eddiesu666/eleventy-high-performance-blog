@@ -1,26 +1,27 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
+  "title": "艾迪酥筆記",
+  "url": "https://blog.eddiesu.com",
   "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
+  "description": "騙吃騙喝的學習心得與技術分享",
   "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
+  "googleAnalyticsId": "G-J569T40L91",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "騙吃騙喝的學習心得與技術分享",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": "https://blog.eddiesu.com"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://blog.eddiesu.com/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "艾迪酥 (Eddie Su)",
+    "description": "騙吃騙喝的全端工程師",
+    "twitterHandle": ""
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "艾迪酥 (Eddie Su)"
   }
 }
