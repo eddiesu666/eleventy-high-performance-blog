@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>艾迪酥筆記</title>
+	<subtitle>騙吃騙喝的學習心得與技術分享</subtitle>
+	
+	<link href="https://blog.eddiesu.com/feed/feed.xml" rel="self"/>
+	<link href="https://blog.eddiesu.com"/>
+	<updated>2022-08-20T00:00:00Z</updated>
+	<id>https://blog.eddiesu.com</id>
+	<author>
+		<name>艾迪酥 (Eddie Su)</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>Hello World!</title>
+		<link href="https://blog.eddiesu.com/posts/HelloWorld/"/>
+		<updated>2022-08-20T00:00:00Z</updated>
+		<id>https://blog.eddiesu.com/posts/HelloWorld/</id>
+		<content type="html">
+		  &lt;h3 id=&quot;%E5%89%8D%E8%A8%80&quot;&gt;前言 &lt;a class=&quot;direct-link&quot; href=&quot;https://blog.eddiesu.com/posts/HelloWorld/#%E5%89%8D%E8%A8%80&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;身為工程獅、程序猿的密，第一次接觸 Eleventy，發個 Hello World 也是合情合理的吧。&lt;/p&gt;
+&lt;h3 id=&quot;%E5%8F%83%E8%80%83&quot;&gt;參考 &lt;a class=&quot;direct-link&quot; href=&quot;https://blog.eddiesu.com/posts/HelloWorld/#%E5%8F%83%E8%80%83&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://frannn.dev/posts/82901432/&quot;&gt;離開 Hexo，使用 Eleventy 架設部落格&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.huli.tw/2021/08/22/eleventy-over-hexo/&quot;&gt;除了 hexo，也可以考慮用 eleventy 來寫技術部落格&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jason-memo.dev/posts/why-i-leave-medium-and-build-blog-with-eleventy/&quot;&gt;為什麼我離開 Medium 用 eleventy 做一個 blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+		</content>
+	</entry>
+</feed>
