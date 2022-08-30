@@ -5,6 +5,8 @@ date: 2022-08-30
 tags:
     - Git
     - Github
+    - Gitlab
+    - Azure
     - Config
 layout: layouts/post.njk
 image: /img/posts/git.png
