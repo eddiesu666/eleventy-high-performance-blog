@@ -1,6 +1,6 @@
 {
   "title": "艾迪酥筆記",
-  "url": "https://blog.eddiesu.com",
+  "url": "https://eddiesu.com",
   "domain": "eddiesu.com",
   "description": "騙吃騙喝的學習心得與技術分享",
   "genre": "Insert a schema.org genre",
@@ -10,11 +10,11 @@
     "subtitle": "騙吃騙喝的學習心得與技術分享",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://blog.eddiesu.com"
+    "id": "https://eddiesu.com"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://blog.eddiesu.com/feed/feed.json"
+    "url": "https://eddiesu.com/feed/feed.json"
   },
   "author": {
     "name": "艾迪酥 (Eddie Su)",
