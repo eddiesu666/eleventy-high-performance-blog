@@ -1,13 +1,13 @@
 ---
 title: 自己的 Blog 自己架
-description: 自己得 BLOG 自己架
+description: 環境建置
 date: 2022-09-05
 tags:
-    - Blog
     - Eleventy
     - 11ty
     - eleventy-high-performance-blog
     - GitHub Pages
+    - 自己的 Blog 自己架
 layout: layouts/post.njk
 image: /img/posts/11ty.svg
 ---
@@ -87,13 +87,12 @@ image: /img/posts/11ty.svg
 >```
 
 ### 顏色配置
-如果不知道顏色怎麼搭配，可以參考 [Colormind](http://colormind.io/bootstrap/)。
+如果不知道顏色怎麼搭配，可以參考 [Colormind](http://colormind.io/bootstrap/)。  
 ![Colormind](/img/posts/Colormind.png)
 
 ### 總結
-到這裡，模板基本上應該是可以正常執行了，再來就是自由發揮了。
-
-
+到這裡，模板基本上應該是可以正常執行了，再來就是自由發揮了。  
+系列文請參考 [自己的 Blog 自己架](/tags/blog)。
 
 [eleventy-high-performance-blog]: https://github.com/google/eleventy-high-performance-blog  "eleventy-high-performance-blog"
 [Demo]: https://github.com/google/eleventy-high-performance-blog  "Demo"
