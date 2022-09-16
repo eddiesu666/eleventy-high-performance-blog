@@ -20,14 +20,14 @@
 /about/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/404.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
 /archives/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /archives/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/404.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /page-list/index.html
@@ -115,15 +115,15 @@
 /tags/blog/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/posts/HelloWorld/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
-/posts/HelloWorld/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
-
 /index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/posts/HelloWorld/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
+/posts/HelloWorld/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 
 /posts/寫網頁就是要炫耀啊，不然要幹麻？寄生 Github Pages/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
