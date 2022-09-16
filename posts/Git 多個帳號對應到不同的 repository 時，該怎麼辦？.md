@@ -67,7 +67,7 @@ git config --local credential.helper store
 git config --list
 ```
 
-最後，為了避免 user.name 與 user.email 使用到痊癒設定，  
+最後，為了避免 user.name 與 user.email 使用到全域設定，  
 在 repository 底下也設定一組吧。
 
 ```bash
