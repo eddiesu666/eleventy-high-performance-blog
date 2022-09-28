@@ -20,6 +20,11 @@
 /about/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
+/404.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
 /archives/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /archives/
@@ -35,24 +40,9 @@
 /page-list/1/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/404.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
 /tags/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
-/tags/hello-world/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/hello-world/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
-/tags/helloworld/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/helloworld/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /tags/git/index.html
@@ -65,6 +55,11 @@
 /tags/github/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
+/tags/gitlab/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/gitlab/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
 /tags/azure/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/azure/
@@ -73,6 +68,26 @@
 /tags/config/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/config/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/hello-world/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/hello-world/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/helloworld/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/helloworld/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/microsoft-learn/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/microsoft-learn/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/vue-js/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/vue-js/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /tags/eleventy/index.html
@@ -105,11 +120,6 @@
 /tags/ci-cd/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/tags/gitlab/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/gitlab/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
 /tags/blog/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/blog/
@@ -130,14 +140,19 @@
 /posts/寫網頁就是要炫耀啊，不然要幹麻？寄生 Github Pages/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 
-/posts/自己的 Blog 自己架/index.html
+/posts/Vue 新手村，初心者的升級之路/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
-/posts/自己的 Blog 自己架/
+/posts/Vue 新手村，初心者的升級之路/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 
 /posts/Git 多個帳號對應到不同的 repository 時，該怎麼辦？/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 /posts/Git 多個帳號對應到不同的 repository 時，該怎麼辦？/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
+
+/posts/自己的 Blog 自己架/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
+/posts/自己的 Blog 自己架/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 
 /posts/慘，提交錯誤的程式該怎麼辦？/index.html
