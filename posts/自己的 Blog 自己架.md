@@ -89,9 +89,13 @@ image: /img/posts/11ty.svg
 如果不知道顏色怎麼搭配，可以參考 [Colormind](http://colormind.io/bootstrap/)。  
 ![Colormind](/img/posts/Colormind.png)
 
+### 留言功能
+[Giscus] 由 GitHub Discussions 驅動的留言系统。讓訪客借助 GitHub 在你的網站上留言和留下反應吧！[Giscus] 很大一部份是受 utterances 啟發。文件寫得蠻清楚的，照著操作就可以正常執行了。
+
 ### 總結
 到這裡，模板基本上應該是可以正常執行了，再來就是自由發揮了。  
 >系列文請參考 [自己的 Blog 自己架](/tags/blog)。
 
 [eleventy-high-performance-blog]: https://github.com/google/eleventy-high-performance-blog  "eleventy-high-performance-blog"
 [Demo]: https://github.com/google/eleventy-high-performance-blog  "Demo"
+[Giscus]: https://giscus.app/zh-TW  "Giscus"
