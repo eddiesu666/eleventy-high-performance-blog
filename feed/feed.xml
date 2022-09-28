@@ -169,6 +169,8 @@ git status      ：查看紀錄。&lt;/p&gt;
 &lt;h3 id=&quot;%E9%A1%8F%E8%89%B2%E9%85%8D%E7%BD%AE&quot;&gt;顏色配置 &lt;a class=&quot;direct-link&quot; href=&quot;https://eddiesu.com/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%20Blog%20%E8%87%AA%E5%B7%B1%E6%9E%B6/#%E9%A1%8F%E8%89%B2%E9%85%8D%E7%BD%AE&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;如果不知道顏色怎麼搭配，可以參考 &lt;a href=&quot;http://colormind.io/bootstrap/&quot;&gt;Colormind&lt;/a&gt;。&lt;br /&gt;
 &lt;img src=&quot;https://eddiesu.com/img/posts/Colormind.png&quot; alt=&quot;Colormind&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;%E7%95%99%E8%A8%80%E5%8A%9F%E8%83%BD&quot;&gt;留言功能 &lt;a class=&quot;direct-link&quot; href=&quot;https://eddiesu.com/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%20Blog%20%E8%87%AA%E5%B7%B1%E6%9E%B6/#%E7%95%99%E8%A8%80%E5%8A%9F%E8%83%BD&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://giscus.app/zh-TW&quot; title=&quot;Giscus&quot;&gt;Giscus&lt;/a&gt; 由 GitHub Discussions 驅動的留言系统。讓訪客借助 GitHub 在你的網站上留言和留下反應吧！&lt;a href=&quot;https://giscus.app/zh-TW&quot; title=&quot;Giscus&quot;&gt;Giscus&lt;/a&gt; 很大一部份是受 utterances 啟發。文件寫得蠻清楚的，照著操作就可以正常執行了。&lt;/p&gt;
 &lt;h3 id=&quot;%E7%B8%BD%E7%B5%90&quot;&gt;總結 &lt;a class=&quot;direct-link&quot; href=&quot;https://eddiesu.com/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%20Blog%20%E8%87%AA%E5%B7%B1%E6%9E%B6/#%E7%B8%BD%E7%B5%90&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;到這裡，模板基本上應該是可以正常執行了，再來就是自由發揮了。&lt;/p&gt;
 &lt;blockquote&gt;
