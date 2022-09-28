@@ -25,11 +25,6 @@
 /archives/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/404.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
 /page-list/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /page-list/
@@ -40,9 +35,24 @@
 /page-list/1/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
+/404.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
 /tags/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/hello-world/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/hello-world/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/helloworld/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/helloworld/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /tags/git/index.html
@@ -55,11 +65,6 @@
 /tags/github/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/tags/gitlab/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/gitlab/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
 /tags/azure/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/azure/
@@ -68,16 +73,6 @@
 /tags/config/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/config/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
-/tags/hello-world/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/hello-world/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
-/tags/helloworld/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/helloworld/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /tags/eleventy/index.html
@@ -110,20 +105,25 @@
 /tags/ci-cd/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
+/tags/gitlab/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/gitlab/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
 /tags/blog/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/blog/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /posts/HelloWorld/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 /posts/HelloWorld/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
-
-/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /posts/寫網頁就是要炫耀啊，不然要幹麻？寄生 Github Pages/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
