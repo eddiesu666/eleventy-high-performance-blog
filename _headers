@@ -20,14 +20,19 @@
 /about/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/404.html
+/tags/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
+/tags/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /archives/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /archives/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/404.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /page-list/index.html
@@ -38,11 +43,6 @@
 /page-list/1/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /page-list/1/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
-/tags/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /tags/git/index.html
@@ -65,14 +65,14 @@
 /tags/azure/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/tags/hello-world/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/hello-world/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
-
 /tags/config/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /tags/config/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/hello-world/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/hello-world/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
 /tags/helloworld/index.html
@@ -155,14 +155,19 @@
 /tags/blog/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
+/posts/HelloWorld/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
+/posts/HelloWorld/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
+
 /index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 /
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=';style-src 'unsafe-inline';img-src 'self' data:
 
-/posts/HelloWorld/index.html
+/posts/寫網頁就是要炫耀啊，不然要幹麻？寄生 Github Pages/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
-/posts/HelloWorld/
+/posts/寫網頁就是要炫耀啊，不然要幹麻？寄生 Github Pages/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 
 /posts/Vue 新手村，初心者的升級之路/index.html
@@ -170,19 +175,14 @@
 /posts/Vue 新手村，初心者的升級之路/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 
-/posts/寫網頁就是要炫耀啊，不然要幹麻？寄生 Github Pages/index.html
+/posts/Git 多個帳號對應到不同的 repository 時，該怎麼辦？/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
-/posts/寫網頁就是要炫耀啊，不然要幹麻？寄生 Github Pages/
+/posts/Git 多個帳號對應到不同的 repository 時，該怎麼辦？/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 
 /posts/Ubuntu 安裝 Nginx + PHP + MySql/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 /posts/Ubuntu 安裝 Nginx + PHP + MySql/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
-
-/posts/Git 多個帳號對應到不同的 repository 時，該怎麼辦？/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
-/posts/Git 多個帳號對應到不同的 repository 時，該怎麼辦？/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-3kWZ1/qFZf3FQbNat5lBGsLfup/4cA+gSGrmt5KQfAs=' 'sha256-Jqxux3ASoOePFBWXKqbd+cVgoaj50LG3ceRTLGy7zsA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';style-src 'unsafe-inline';img-src 'self' data:
 
 /posts/自己的 Blog 自己架/index.html
