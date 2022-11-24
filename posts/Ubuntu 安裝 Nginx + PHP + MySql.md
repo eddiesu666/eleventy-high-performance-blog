@@ -29,7 +29,7 @@ image: /img/posts/php_nginx_mysql_ubuntu.png
 ```bash
     sudo add-apt-repository ppa:ondrej/php
     sudo apt-get update
-    sudo apt-get install php5.6 php5.6-fpm php5.6-mysql
+    sudo apt-get install php5.6 php5.6-fpm php5.6-mysql php5.6-gd
 ```
 
 - 如何徹底刪除PHP？
