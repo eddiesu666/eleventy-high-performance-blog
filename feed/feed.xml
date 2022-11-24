@@ -428,7 +428,7 @@ codeql-analysis 和 build-and-test 是 template 中就有的，沒有修改。&l
 &lt;li&gt;舊版安裝&lt;br /&gt;
 可以依據想安裝的版本，修改版本號，以下以5.6範例&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;    &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; add-apt-repository ppa:ondrej/php&lt;br /&gt;    &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; update&lt;br /&gt;    &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; php5.6 php5.6-fpm php5.6-mysql&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;    &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; add-apt-repository ppa:ondrej/php&lt;br /&gt;    &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; update&lt;br /&gt;    &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; php5.6 php5.6-fpm php5.6-mysql php5.6-gd&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;如何徹底刪除PHP？&lt;/li&gt;
 &lt;/ul&gt;
